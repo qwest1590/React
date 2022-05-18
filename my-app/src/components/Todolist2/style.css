@@ -1,0 +1,123 @@
+@font-face {
+  font-family: "Oleo";
+  src: url("./fonts/OleoScriptSwashCaps-Regular.ttf");
+}
+
+body {
+  background-image: url(./images/797778.jpg);
+  margin: 0;
+  padding: 0;
+}
+body * {
+  font-family: "Oleo";
+}
+.todolist {
+  width: 1000px;
+  height: 200px;
+  background: linear-gradient(red, purple, green);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 100px;
+  border-radius: 50px;
+}
+.todolist input {
+  background-color: rgb(223, 174, 182);
+  height: 50px;
+  width: 400px;
+  border: 3px solid rebeccapurple;
+  border-radius: 20px;
+  font-size: 2rem;
+  text-align: center;
+}
+.todolist input:focus {
+  background: rgb(252, 249, 249);
+  outline: none;
+}
+.todolist input:hover {
+  filter: drop-shadow(0 -6mm 4mm rgb(160, 0, 210));
+}
+.btn {
+  height: 50px;
+  width: 200px;
+  font-size: 2rem;
+  border-radius: 20px;
+  border: none;
+  background: repeating-radial-gradient(red, gold);
+  cursor: pointer;
+}
+.btn:hover {
+  filter: drop-shadow(0 -6mm 4mm rgb(160, 0, 210));
+}
+.showHide.btn {
+  height: 100px;
+}
+.todoItem {
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background: linear-gradient(green, purple, red);
+  height: 100px;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 100px 400px 90px 90px 220px;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  position: relative;
+}
+.todoItem p {
+  margin: 0;
+  text-align: center;
+}
+.checkbox {
+  height: 30px;
+  width: 30px;
+  margin-left: 30px;
+}
+.delete.btn {
+  margin-left: 10px;
+}
+.delete.btn:hover {
+  filter: drop-shadow(0 0 0.75rem rgb(13, 99, 10));
+  border: 2px solid rgb(250, 48, 22);
+}
+.curTasks {
+  text-align: center;
+  font-size: 3rem;
+  color: beige;
+  font-weight: 300;
+}
+.checked {
+  background: rgb(121, 120, 120);
+}
+.liTodos {
+  height: 100px;
+}
+.hidden {
+  display: none;
+}
+.changing {
+  height: 50px;
+  width: 50px;
+  background: url(./images/84380.png);
+  background-size: cover;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  justify-self: center;
+}
+.confirm {
+  width: 90px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(rgb(73, 73, 189), rgb(47, 128, 0));
+  cursor: pointer;
+}
+.bordered {
+  transition: all 2s;
+  background: rgb(4, 214, 50);
+  box-shadow: 2px 3px 5px green;
+}

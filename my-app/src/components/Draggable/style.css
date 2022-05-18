@@ -1,0 +1,35 @@
+.circle {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
+.square {
+  height: 80px;
+  width: 80px;
+}
+.triangle {
+  width: 0px;
+  height: 0px;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 50px solid;
+}
+.figures {
+  display: flex;
+  width: 700px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.hereToDrop {
+  width: 700px;
+  height: 150px;
+  margin: 100px auto;
+  text-align: center;
+  font-size: 2rem;
+}
+.active {
+  border: 2px solid tomato;
+}

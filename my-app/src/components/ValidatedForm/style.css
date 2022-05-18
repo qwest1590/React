@@ -1,0 +1,61 @@
+.formDiv {
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(lightblue, lightgray);
+  border-radius: 20px;
+}
+.form {
+  height: inherit;
+  width: inherit;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+}
+.btn {
+  width: 150px;
+  height: 40px;
+  border: 2px solid rgb(5, 128, 209);
+  border-radius: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  background: radial-gradient(lightgreen, lightblue);
+  cursor: pointer;
+  align-self: center;
+}
+.btn:hover {
+  filter: drop-shadow(0 0 0.9rem rgb(90, 207, 133));
+}
+.label {
+  font-style: italic;
+  font-size: 1.3rem;
+  margin-left: 10px;
+}
+.input {
+  height: 20px;
+  border-radius: 5px;
+  background-color: lightskyblue;
+  border: 2px solid black;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+.log.input {
+  margin-left: 30px;
+}
+.input:focus {
+  outline: none;
+  background: rgb(243, 243, 237);
+}
+.infoDiv {
+  width: 80%;
+  background-color: lightcoral;
+  height: 50px;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 550;
+  border-radius: 10px;
+}

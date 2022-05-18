@@ -1,0 +1,37 @@
+/* .btn {
+  height: 50px;
+  width: 200px;
+  background: linear-gradient(lightblue, lightgray);
+  border: 0;
+  border-radius: 20px;
+  cursor: pointer;
+} */
+.popup {
+  background: linear-gradient(lightblue, lightgreen);
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 500px;
+  width: 1000px;
+  border-radius: 30px;
+  margin: 0 auto;
+  opacity: 0.7;
+  font-size: 4rem;
+  position: relative;
+  margin-top: -100px;
+  margin-left: 200px;
+}
+.close {
+  height: 50px;
+  width: 80%;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background: rgb(4, 190, 236);
+  color: rgb(36, 2, 56);
+  font-size: 1.5rem;
+}
+.hidden {
+  visibility: hidden;
+}
