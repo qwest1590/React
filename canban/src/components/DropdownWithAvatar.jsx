@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import defaultAva from "/projects/React/canban/src/images/user-avatar.jpg";
+import defaultAva from "../images/user-avatar.jpg";
 import arrow from "../images/arrow-down.png";
 const DropdownWithAvatar = () => {
   const [isOpen, setIsOpen] = useState(false);
